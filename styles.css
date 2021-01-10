@@ -1,4 +1,4 @@
-body { background-color: #25274D; } /* 2F2FA2 */
+body { background-color: #2f4454; } /* 2F2FA2 */
 
 .callNavigation {
 	height: 100%;
@@ -13,7 +13,7 @@ body { background-color: #25274D; } /* 2F2FA2 */
 .centrarespan {	text-align:center; overflow:hidden; color:white; font-size:xx-large;	}
 
 .center {margin: auto;width: 100%;padding: 10px;}
-a.id1:hover, a.id1:active {background-color:#29ECCA;}
+a.id1:hover, a.id1:active {background-color:#e85a4f;}
 
 /* Fixed sidenav, full height */
 .sidenav {
@@ -23,7 +23,7 @@ a.id1:hover, a.id1:active {background-color:#29ECCA;}
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #25274D;
+  background-color: #2f4454;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 10px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -37,7 +37,7 @@ a.id1:hover, a.id1:active {background-color:#29ECCA;}
   color: white;
   display: block;
   border: none;
-  background: #25274D;
+  background: #2f4454;
   width:100%;
   text-align: left;
   cursor: pointer;
@@ -51,10 +51,10 @@ a.id1:hover, a.id1:active {background-color:#29ECCA;}
 .main {	margin-left:200px; /* Same as the width of the sidenav */ font-size:20px; /* Increased text to enable scrolling */ padding:0px 10px;}
 
 /* Culori la meniul de dropdown */
-.active {	background-color:#29ECCA; color:white;	}
+.active {	background-color:#e85a4f; color:white;	}
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {	display:none; background-color:#25274D; padding-left:8px;	}
+.dropdown-container {	display:none; background-color:#2f4454; padding-left:8px;	}
 
 .show{	transform:translate3d(0vw, 0, 0);	}
 
@@ -79,9 +79,9 @@ a.id1:hover, a.id1:active {background-color:#29ECCA;}
 }
 
 .button {
-  background-color: #29ECCA;
+  background-color: #e85a4f;
   border: none;
-  color: #25274D;
+  color: #2f4454;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -147,6 +147,3 @@ a.id1:hover, a.id1:active {background-color:#29ECCA;}
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
-
-/* LOGO-uri + ss in folder */
-/* http://www.webestools.com/web20-title-generator-logo-title-maker-online-web20-effect-reflect-free-photoshop.html */
