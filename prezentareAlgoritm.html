@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	 <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="callNavigation" onmouseover="NavHover()"></div>
+	<div id=mySidenav class="sidenav">
+		<a href="MainPage.html" class="id1">Acasa</a>
+  		<a href="prezentareAlgoritm.html" style="background-color:#29ECCA">Algoritm</a>
+  		<a href="multimedia.html" class ="id1">Multimedia</a>
+ 		<button class="dropdown-btn" >Implementare</button>
+  		<div class="dropdown-container" class ="id1">
+    		<a href="exempluPython.html" class ="id1">Python</a>
+    		<a href="exempluCpp.html" class ="id1">C++</a>
+    		<a href="exempluJava.html" class ="id1">Java</a>
+  		</div>
+  		<a href="simulator.html" class ="id1">Simulator</a>
+  		<a href="despre.html" class ="id1">Despre</a>
+	</div>
+<p class="centrarespan"><img class="plasare_content_principal" src="Images\ImaginePrezentareAlgoritm.png"></p>
+<script src="myScript.js"></script>
+</body>
+<div class="plasare_content_principal">Se dă un set de 3 stâlpi și n discuri, ficare având o dimensiune diferită. În prezentarea de mai jos stâlpii o să fie numiți A, B, C, iar discurile o să fie numerotate de la 1 la n. Exemplul pentru n = 5: <img class="plasare_content_principal" src="Images/algo1.png"><br>Scopul este să muți toate cele n discuri de la stâlpul A la stalpul B în cât mai puțini pași.</br><img class="plasare_content_principal" src="Images/algo2.png">
+<p>Sună simplu? Nu este chiar așa pentru că trebuie să ții cont de 2 reguli:</p>
+<p>1. Poți muta discurile doar pe rând, unul câte unul.</p>
+<p>2. Discurile nu pot fi așezate peste alte discuri cu o dimensiune mai mare</p>
+<p>Acum că ai aflat regulile pare destul de complicat? - Din contră! Legenda spune ca undeva prin Asia, calugării incercau să rezolve o astfel de problemă cu un set de 64 de discuri. Ei spuneau că in momentul in care problema o să fie rezolvată lumea se v-a sfârșii (Noroc că nu existau calculatoare pe vremea aceea)</p>
+<p>Să vedem cum putem rezolva problema intr-un mod recursiv. Încep cu cel mai ușor caz posibil, un singur disc. In acest caz n=1, mereu poți muta un disc de la A la B, pentru că nu exista un disc mai mare de care să ți cont.</p>
+<p>Dar cu doua discuri? In acest caz n=2, problema poate fi rezolvată in 3 pași. Iată cum arată dispunerea discurilor pe stâlpi</p><img class="plasare_content_principal" src="Images/algo3.png">
+<p> Pentru început, mutăm discul 1 de la stâlpul A la stalpul C: </p><img class="plasare_content_principal" src="Images/algo4.png">
+<p>Dupa cum observi, folosiim stâlpul C pe post de container, unde depozităm temporar un disc. Acum că discul cel mai mare ca dimensiune, cel cu numărul 2 este eliberat, îl putem muta la stâlpul B.</p><img class="plasare_content_principal" src="Images/algo4.png">
+<p>Pentru a finaliza algorimtmul, mută discul 1 deasupra discului 2</p><img class="plasare_content_principal" src="Images/algo5.png">
+</div>
+</html>
